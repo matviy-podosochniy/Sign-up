@@ -70,6 +70,7 @@ body {
     justify-content:flex-start;
     flex-direction: column;
     gap:4px;
+    position: relative;
 }
 
 .password-input > label{
@@ -87,7 +88,14 @@ body {
     border-style:solid;
     border-color: #61646B;
 }
+.password-button{
 
+    
+    width: 24px;
+    height: 24px;
+    position: static;
+    transform: translate(364px, -40px);
+}
 .signup-button{
     background-color: black;
     border-radius: 16px;
